@@ -4,7 +4,6 @@
 
 ### Primary
 
-- Very dark blue (main background): hsl(233, 47%, 7%)
 - Dark desaturated blue (card background): hsl(244, 38%, 16%)
 - Soft violet (accent): hsl(277, 64%, 61%)
 
