@@ -2,10 +2,7 @@
 - Mobile: 375px
 - Desktop: 1440px
 
-### Primary
 
-- Dark desaturated blue (card background): hsl(244, 38%, 16%)
-- Soft violet (accent): hsl(277, 64%, 61%)
 
 ### Neutral
 
