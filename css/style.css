@@ -18,7 +18,7 @@ body {
 .wrapper {
     display: flex;
     min-width: 100%;
-    height: 400px;
+    min-height: 400px;
 }
 
 .container {
@@ -29,23 +29,31 @@ body {
 
 .content {
     background-color: hsl(244, 38%, 16%);
-    padding: 4em;
+    padding: 3em;
     width: 60%;
     border-radius: 5px 0 0 5px;
 }
 
-.image img {
-    display: block;
+.image {
+    display: flex;
+    background-image: url(../images/image-header-desktop.jpg);
+    background-size: cover;
     height: 100%;
+    width: 450px;
+}
+
+.image-content{
     width: 100%;
-    border-radius: 0 5px 5px 0;
+    height: 100%;
+    background-color: hsl(277, 64%, 61%);
+    opacity: 0.5;
 }
 
 .content h1 {
     font-family: 'Lexend Deca', sans-serif;
     color: white;
     /* letter-spacing: 2px; */
-    font-size: 36px;
+    font-size: 40px;
     font-weight: 600;
     margin-bottom: 2rem;
     
@@ -56,7 +64,7 @@ body {
 }
 
 .paragraph {
-    width: 80%;
+    width: 70%;
     margin-bottom: 4rem;
 }
 
@@ -67,12 +75,12 @@ body {
 .numbers-company {
     display: flex;
     justify-content: space-between;
-    width: 80%;
+    width: 60%;
 }
 
 .numbers {
     color: white;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
 }
 
